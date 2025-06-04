@@ -1,1 +1,4 @@
-console.log("Welcome to ReadyBoot by Kuldeep Prajapati!");
+
+document.addEventListener("DOMContentLoaded", function () {
+  console.log("🚀 ReadyBoot loaded");
+});
