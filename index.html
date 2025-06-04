@@ -1,111 +1,88 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>ReadyBoot by Kuldeep Prajapati</title>
-    <style>
-        body {
-            background-color: #0a0f2c;
-            color: #ffffff;
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1, h2 {
-            color: #4fc3f7;
-        }
-        .section {
-            margin-bottom: 40px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 40px;
-            font-size: 0.9em;
-            color: #ccc;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ReadyBoot - Official Bootable USB Tool</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <header>
     <h1>ReadyBoot</h1>
-    <p><strong>by Kuldeep Prajapati</strong></p>
+    <p class="subtitle">Reliable Bootable USB Creation - by Kuldeep Prajapati</p>
+  </header>
 
-    <div class="section">
-        <h2>💻 How ReadyBoot Works</h2>
-        <ol>
-            <li>Select your ISO file</li>
-            <li>Plug in your USB drive</li>
-            <li>Click 'Create Bootable USB'</li>
-        </ol>
-        <p>That's it – Bootable USB ready in seconds!</p>
-    </div>
+  <main>
+    <section>
+      <h2>💻 Overview</h2>
+      <p>ReadyBoot is a simple and powerful tool that allows you to create bootable USB drives from ISO files, supporting Windows and Linux operating systems. Designed to be lightweight, fast, and reliable, ReadyBoot is ideal for technicians and everyday users.</p>
+    </section>
 
-    <div class="section">
-        <h2>🔧 Development</h2>
-        <p>ReadyBoot is being actively developed by Kuldeep Prajapati to offer a fast, reliable, and user-friendly way to create bootable USB drives from ISO files. Inspired by simplicity and performance, ReadyBoot focuses on:</p>
-        <ul>
-            <li>Lightweight design for fast startup and execution</li>
-            <li>Offline functionality with no dependencies on external internet connections</li>
-            <li>Compatibility with a wide range of ISO formats including Windows and Linux distributions</li>
-            <li>Planned integration with license management and user activation via the ReadyBoot Admin App</li>
-        </ul>
-        <p>Development is ongoing, with regular updates aimed at improving performance, stability, and ease-of-use. Suggestions and feedback are always welcome to help shape the future of ReadyBoot.</p>
-    </div>
+    <section>
+      <h2>📷 App Preview</h2>
+      <img src="readyboot-how-it-works.png" alt="App Screenshot">
+    </section>
 
-    <div class="section">
-        <h2>🔓 License</h2>
-        <p>ReadyBoot is distributed under a <strong>proprietary license</strong>. By downloading or using the software, you agree to the following terms:</p>
-        <ul>
-            <li>The software is provided "as-is", without any warranty or guarantee of performance.</li>
-            <li>Use is at your own risk. The developer is not responsible for any data loss, drive formatting errors, or system issues.</li>
-            <li>Redistribution, reverse-engineering, or repackaging of the software is strictly prohibited.</li>
-            <li>Commercial or institutional use requires a valid license via ReadyBoot Admin App.</li>
-        </ul>
-    </div>
+    <section>
+      <h2>⬇️ Download</h2>
+      <div class="download-box">
+        <p><strong>ReadyBoot v1.0</strong></p>
+        <p>Coming Soon</p>
+      </div>
+    </section>
 
-    <div class="section">
-        <h2>🛠️ Source Code</h2>
-        <p>The full source code for ReadyBoot is currently under internal review and not yet public. However, we are planning to release:</p>
-        <ul>
-            <li>A <strong>basic open-source CLI tool</strong> version for developers</li>
-            <li>Full <strong>GUI-based app source</strong> with license verification integration (paid access)</li>
-            <li>Source Code hosted on GitHub under Kuldeep Prajapati's official account</li>
-        </ul>
-        <p>📌 <strong>Status:</strong> Coming Soon<br>
-        🧾 <strong>GitHub:</strong> To be announced<br>
-        🔒 <strong>Note:</strong> Only paid users will get access to advanced source code in future versions.</p>
-    </div>
+    <section>
+      <h2>🔧 Development</h2>
+      <p>ReadyBoot is developed using modern frameworks and native libraries to ensure speed and stability. The development focuses on UEFI and BIOS compatibility, with support for FAT32 and NTFS partition formats. We aim for transparency, simplicity, and feature-rich growth.</p>
+    </section>
 
-    <div class="section">
-        <h2>📈 Changelog</h2>
-        <ul>
-            <li><strong>v1.0</strong> – Initial version of the official ReadyBoot website launched</li>
-            <li><strong>v1.1</strong> – Paid version details and admin control panel added</li>
-            <li><strong>v1.2</strong> – W/O image and Rufus-style sections added</li>
-        </ul>
-        <p>Future versions will include support for multi-boot ISOs, custom bootloader options, dark mode, and more!</p>
-    </div>
+    <section>
+      <h2>🧩 Features</h2>
+      <ul>
+        <li>Create bootable USB from ISO (Windows/Linux)</li>
+        <li>Supports both UEFI and legacy BIOS systems</li>
+        <li>Clean and lightweight interface</li>
+        <li>Offline working, no installation required</li>
+        <li>Optional paid license features (auto-format, multi-write)</li>
+      </ul>
+    </section>
 
-    <div class="section">
-        <h2>💰 Paid Version</h2>
-        <p>Get full access for ₹199 (2 months) with 1 week free trial. Manage licenses via ReadyBoot Admin App.</p>
-    </div>
+    <section>
+      <h2>💻 System Requirements</h2>
+      <ul>
+        <li>Windows 7 or later (x64)</li>
+        <li>1 GB RAM minimum</li>
+        <li>USB drive (8 GB or more recommended)</li>
+      </ul>
+    </section>
 
-    <div class="section">
-        <h2>🧑‍💻 Admin App</h2>
-        <p>Monitor usage, activate users manually, and view earnings offline with ReadyBoot Admin App for Android + Windows.</p>
-    </div>
+    <section>
+      <h2>🔓 License</h2>
+      <p>ReadyBoot is provided under a free-for-personal-use license. You must accept the terms before proceeding. Redistribution and commercial use is not allowed without written permission. We do not take responsibility for any damage caused through misuse of the software.</p>
+    </section>
 
-    <div class="section">
-        <h2>📞 Contact</h2>
-        <p>Email: prajapatisulekha81@gmail.com<br>
-        Address: Subhas Nagar, Aaramachine, BHL, Jhansi – 284120</p>
-    </div>
+    <section>
+      <h2>🛠️ Source Code</h2>
+      <p>We are working on preparing a public GitHub release of partial source code for transparency and educational review. This will include non-commercial components and documentation.</p>
+    </section>
 
-    <div class="footer">
-        © 2025 ReadyBoot. All rights reserved.
-    </div>
+    <section>
+      <h2>📈 Changelog</h2>
+      <ul>
+        <li><strong>v1.0</strong> – Official website release with dark theme, Rufus-style layout, and secure structure</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>📞 Contact</h2>
+      <p>Email: <a href="mailto:prajapatisulekha81@gmail.com">prajapatisulekha81@gmail.com</a></p>
+      <p>Address: Subhas Nagar, Aaramachine, BHL, Jhansi – 284120</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ReadyBoot. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>

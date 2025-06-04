@@ -1,4 +1,4 @@
 
-document.addEventListener("DOMContentLoaded", function () {
-  console.log("🚀 ReadyBoot loaded");
+document.addEventListener("DOMContentLoaded", () => {
+  console.log("ReadyBoot Official Pro Site Loaded");
 });
